@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 ## While we want to reuse the value of the inverse matrix again, recomputation may 
 ## be taken a long time to do agian, especially in the case of repeated computation,
@@ -50,12 +49,6 @@ cacheSolve <- function(x, ...) {
 }
 
 ## The followings are the examples of how to use these functions:
-## mat_dim2 <- matrix(rnorm(10),2,2) (note: matrix has to be a square matrix)
-## print(mat_dim2)
-## cacheInv = makeCacheMatrix(mat_dim2)
-## m$get()
-## cacheSolve(cacheInv) (note: no cache yet because no data store)
-## cacheSolve(cacheInv) (note: if you redo, it caches by showing the massage)
 
 mat_dim2<-matrix(1:4,2,2) ## matrix has to be a square matrix
 print(mat_dim2)           
